@@ -83,4 +83,37 @@ h5 {
 }
 .es-banner img {
   width: 100%;
+}
+
+@media screen and (max-width: 1240px) {
+  .es-nav__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .es-nav__main img {
+    width: 100%;
+  }
+  .es-nav__secondary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .es-nav__secondary img {
+    width: 100%;
+  }
+  .es-nav__single {
+    position: relative;
+  }
+  .es-nav__link {
+    position: absolute;
+    left: 45%;
+    top: 35%;
+  }
+  .es-nav__link:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
 }/*# sourceMappingURL=style.css.map */
