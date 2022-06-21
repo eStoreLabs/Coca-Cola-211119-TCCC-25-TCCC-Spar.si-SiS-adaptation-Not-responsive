@@ -1,0 +1,108 @@
+@charset "UTF-8";
+html{
+    scroll-behavior: smooth;
+  }
+  $regular: 'TCCC-UnityCondensed', sans-serif;
+  $red: #de0a1c;
+  $orange: #ff8300;
+  $green: #00a938;
+  $dark-green:#1e712f;
+  $burgundy: #6c1f37;
+  $navy: #00256c;
+  $white: #fff;
+  $beige: #ffe7bb;
+  $darkbrown:#341a11;
+  $black: #000;
+  
+  @mixin img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    @mixin text {
+      margin: 0;
+      padding: 0;
+      line-height: inherit;
+      color: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: $regular;
+      color: $black;
+    }
+  
+    #es-CocaCola .es-CocaCola {
+      font-family: $regular;
+      max-width: 1280px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1;
+      margin: 0 auto;
+      padding: 0;
+      overflow: hidden;
+      color: #000;
+      background: #fff;
+      scroll-behavior: smooth;
+    }
+    .es-kv{
+        max-width: 1280px;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
+    .es-nav{
+        display: flex;
+        flex-direction: column;
+        max-width: 1280px;
+        margin: 0 auto;
+        &__main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+            img{
+                width: 100%;
+            }
+        }
+        &__secondary{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            img{
+                width: 100%;
+            }
+        }
+        &__single{
+            position: relative;
+        }
+        &__link{
+            position: absolute;
+            left: 45%;
+            top:35%;
+            &:hover{
+                opacity: 0.9;
+                transform: scale(1.1);
+            }
+        }
+    }
+    .es-banner{
+        display: flex;
+        flex-direction: column;
+        max-width: 1280px;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }

@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "TCCC-UnityCondensed", sans-serif;
+  color: #000;
+}
+
+#es-CocaCola .es-CocaCola {
+  font-family: "TCCC-UnityCondensed", sans-serif;
+  max-width: 1280px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #000;
+  background: #fff;
+  scroll-behavior: smooth;
+}
+
+.es-kv {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.es-kv img {
+  width: 100%;
+}
+
+.es-nav {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.es-nav__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.es-nav__main img {
+  width: 100%;
+}
+.es-nav__secondary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.es-nav__secondary img {
+  width: 100%;
+}
+.es-nav__single {
+  position: relative;
+}
+.es-nav__link {
+  position: absolute;
+  left: 45%;
+  top: 35%;
+}
+.es-nav__link:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+
+.es-banner {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.es-banner img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
